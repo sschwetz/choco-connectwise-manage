@@ -5,7 +5,7 @@ $url        = 'https://university.connectwise.com/install/ConnectWise-Internet-C
 $url64      = $url
 
 $packageArgs = @{
-  packageName   = $env:connectwise-internet-client
+  packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir	
   fileType      = 'msi'
   url           = $url
@@ -18,7 +18,7 @@ $packageArgs = @{
   checksum64    = $checksum
   checksumType64= 'sha256'
 
-  silentArgs    = "/qb"
+  silentArgs    = "/quiet /i"
   validExitCodes= @(0, 3010, 1641)
 }
 
