@@ -4,12 +4,11 @@
   <metadata>
     <id>connectwise-manage-client</id>
     <version>2017.03</version>
-    <packageSourceUrl>https://github.com/sschwetz/choco-connectwise-manage</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/sschwetz/choco-connectwise-manage</packageSourceUrl>
 
     <title>connectwise-manage-client (Install)</title>
     <authors>Labtech</authors>
-    <!-- projectUrl is required for the community feed -->
-    <projectUrl></projectUrl>
+    <projectUrl>https://www.connectwise.com/</projectUrl>
 	<copyright>2017</copyright>
     <tags>connectwise-manage-client</tags>
     <summary>Connectwise Manage Windows Client</summary>
