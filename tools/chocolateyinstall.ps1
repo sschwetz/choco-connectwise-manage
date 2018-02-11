@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'Connectwise Internet Client*'
 
-  checksum      = '1831C38BA751BA462A11AF0346D61B2C62804396E395C67EA91B2F9626B6E1F3'
+  checksum      = '73C62FEF1A4321C85C32CD37DD8573EC9F1B6934D61F5C215CB7CE913E64A9F9'
   checksumType  = 'sha256'
   checksum64    = $checksum
   checksumType64= 'sha256'
